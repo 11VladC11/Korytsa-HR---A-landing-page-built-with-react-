@@ -3,7 +3,9 @@ import { WhatsappContainer } from './whatsapp.styles'
 const Whatsapp =()=>{
 	return(
 		<WhatsappContainer>
-			<img src={whatsappIcon} alt="" />
+			<a href="#nnn" className='whatsappLink'>
+				<img src={whatsappIcon} alt="" />
+			</a>
 		</WhatsappContainer>
 	)
 }

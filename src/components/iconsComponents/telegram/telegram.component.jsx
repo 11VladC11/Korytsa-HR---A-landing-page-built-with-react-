@@ -4,7 +4,9 @@ import { TelegramContainer } from './telegram.styles'
 const Telegram =()=>{
 	return(
 		<TelegramContainer>
-			<img src={telegramIcon} alt="" />
+			<a href="#nn" className='telegramLink'>
+				<img src={telegramIcon} alt="" />
+			</a>
 		</TelegramContainer>
 	)
 }

@@ -9,7 +9,9 @@ const Navigation =()=>{
 			<NavigationContainer>
 			
 				<NavigationLogo>
-					<img src={logoImg} alt="" />
+					<a href="#home">
+						<img src={logoImg} alt="" />
+					</a>
 				</NavigationLogo>
 
 				<NavigationLinks>
@@ -34,8 +36,8 @@ const Navigation =()=>{
 								<span>068 321 001</span>
 							</a>
 						</li>
-						<li>
-							<Telegram/>
+						<li className="telegramIconLink">
+								<Telegram/>
 						</li>
 						<li>
 							<Whatsapp/>
