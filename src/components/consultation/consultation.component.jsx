@@ -4,7 +4,7 @@ import Whatsapp from "../iconsComponents/whatsapp/whatsapp.component";
 
 const Consultation = ()=>{
 	return(
-		<ConsultationContainer>
+		<ConsultationContainer className="consultation">
 			<ConsultationButton>
 				<a href="#button">
 					Консультация здесь

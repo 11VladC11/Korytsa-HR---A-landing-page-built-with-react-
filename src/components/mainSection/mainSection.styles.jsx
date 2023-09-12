@@ -4,7 +4,7 @@ export const MainSectionWrapper = styled.div`
 	margin: 0;
 	position: relative;
 	width: 100%;
-	height: 56.25rem;
+	padding-bottom: 13.5rem;
 	overflow: hidden;
 `
 export const MainSectionBackground = styled.div`
