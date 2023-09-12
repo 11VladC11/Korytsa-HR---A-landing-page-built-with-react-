@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const InTouchWrapper = styled.div`
 background-color: #FFBCB8;
-padding: 2.68rem;
+padding: 2.68rem 0 3.18rem 0;
 `
 
 export const InTouchContainer = styled.div`

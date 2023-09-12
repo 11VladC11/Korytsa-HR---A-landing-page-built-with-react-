@@ -1,6 +1,7 @@
 import InTouch from "./components/inTouch/inTouch.component";
 import MainSection from "./components/mainSection/mainSection.component";
 import Navigation from "./components/navigation/navigation.component";
+import Services from "./components/servicesSection/services.component";
 import WhyUs from "./components/whyUs/whyUs.component";
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 		<MainSection/>
 		<WhyUs/>
 		<InTouch/>
+		<Services/>
     </div>
   );
 }
