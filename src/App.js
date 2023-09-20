@@ -1,3 +1,4 @@
+import Contacts from "./components/contactUs/contactUs.component";
 import InTouch from "./components/inTouch/inTouch.component";
 import MainSection from "./components/mainSection/mainSection.component";
 import Navigation from "./components/navigation/navigation.component";
@@ -11,6 +12,7 @@ function App() {
 		<WhyUs/>
 		<InTouch/>
 		<Services/>
+		<Contacts/>
     </div>
   );
 }
